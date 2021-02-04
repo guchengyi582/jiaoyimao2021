@@ -1,0 +1,232 @@
+html{
+    font-size: 26.67vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    width: 100%;
+    min-height: 0.52rem;
+    display: flex;
+    background-color: #249eff;
+}
+#header img{
+    width: 100%;
+    display: block;   
+}
+#head{
+    width: 100%;
+    height: 0.52rem;
+    background-color: rgb(255, 0, 98);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: none;
+}
+#shuru{
+    width: 100%;
+    height: 0.71rem;
+    background: url(../images/3.png);
+    background-size: 100% 3.65333rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#shuru img{
+    margin-top: 0.2rem;
+    width: 0.23rem;
+    height: 0.23rem;
+    display: block;
+}
+#shuru .srk{
+    width: 2.77rem;
+    height: 0.31rem;
+    border-radius: 0.46667rem;
+    background-color: bisque;
+    line-height: 0.28rem;
+    font-size: 0.1rem;
+    margin-top: 0.15rem;
+}
+#shuru span{
+    font-size: 0.2rem;
+    height: 0.2rem;
+    width: 0.2rem;
+    color: #fff;
+    display: block;
+    margin-top: 0.2rem;
+}
+.bujian{
+    width: 100%;
+    height: 0.85rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: wheat;
+}
+.bujian .box{
+    display: flex;
+    width: 0.46rem;
+    height: 0.65rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 0.1rem;
+}
+.bujian .box img{
+    width: 100%;
+    height: 100%;
+}
+.bujian .box span{
+    font-size: 0.1rem;
+    text-align: center;
+}
+.bujian-two{
+    width: 100%;
+    height: 0.88rem;
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: space-around;
+}
+.bujian-two .box{
+    display: flex;
+    width: 0.38rem;
+    height: 0.38rem;
+    flex-direction: column;
+    align-content: space-between;
+    margin-top: 0.13rem;
+}
+.bujian-two .box img{
+    width: 100%;
+    height: 100%;
+}
+.bujian-two .box span{
+    font-size: 0.1rem;
+    text-align: center;
+}
+.bujian-three{
+    width: 100%;
+    height: 0.55rem;
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: space-around;
+}
+.bujian-three .kk{
+    width: 3.46rem;
+    height: 0.3rem;
+    background-color: #fff8d0;
+    text-align: center;
+    line-height: 0.32rem;
+    margin-top: 0.13rem;
+    border-radius: 0.46667rem;
+    font-size: 0.1rem;
+}
+h2{
+    font-size: 0.2rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.bujian-four,.bujian-five{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bujian-four div,.bujian-five div{
+    text-align: center;
+    width: 0.75rem;
+    height: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.bujian-four div img,.bujian-five div img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.bujian-four div span,.bujian-five div span{
+    font-size: 0.1rem;
+}
+.bujian-six{
+    width: 3.45rem;
+    height: 1.3rem;
+    margin-left: 0.15rem;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.bujian-six img{
+    width: 100%;
+    height: 1.3rem;
+}
+#shenti{
+    width: 100%;
+}
+.bujian-seven{
+    width: 100%;
+    height: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.1rem;
+}
+
+.bujian-seven img{
+    width: 1.7rem;
+    height: 0.7rem;
+}
+.bujian-ba{
+    width: 100%;
+    height: 0.22rem;
+    display: flex;
+    color: #a1a1a1;
+    justify-content: space-around;
+    margin-bottom: 0.1rem;
+    font-size: 0.18rem;
+}
+#foot{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 0.51rem;
+    background-color: coral;
+    display: flex;;
+    justify-content: space-between;
+}
+#foot div{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.13rem;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,153 @@
+html{
+    font-size: 26.67vw;
+}
+html,body{
+    height: 100%;
+    width: 3.75rem;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#bujian-one{
+    width: 3.75rem;
+    height: 0.25rem;
+    position: relative;
+    background: #fff;
+    font-size: 0.18rem;
+    cursor: pointer;
+    line-height: 0.25rem;
+    margin-top: 0.1rem;
+}
+#bujian-one img{
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    position: absolute;
+    left: 0.15rem;
+    top: 0.02rem;
+}
+#bujian-one input{
+    display: block;
+    width: 70%;
+    height: 35px;
+    background: #f5f7fa;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    font-size: 14px;
+    color: #c0c4cc;
+    margin: 0 10px;
+    padding-left: 40px;
+}
+#bujian-two{
+    width: 100%;
+    margin-top: 0.2rem ;
+}
+#bujian-two li{
+    font-size: 0.1rem;
+    float: left;
+    width: 15%;
+    height: 1rem;
+    margin-left: 0.1rem;
+    text-align: center;
+}
+#bujian-two li img{
+    width: 0.52rem;
+    height: 0.52rem;
+    border-radius: 100%;
+    margin-bottom: 0.1rem;
+}
+#banner{
+    width:3.75rem;
+    height:1.52rem;
+    overflow: hidden;
+    position: relative;
+}
+#bannerimg{
+    width:9999999px;
+    height: 1.42rem;
+}
+#banner img{
+    width: 3.2rem;
+    height: 1.41rem;
+    float: left;
+    margin-left: 0.17rem;
+}
+#bannerdot {
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%,0);
+}
+#bannerdot li{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background-color:rgb(134, 19, 38);
+    margin:0 0.05rem; 
+    float: left;
+    cursor: pointer;
+    opacity: .2;
+}
+#bannerdot .focus{
+    opacity: 1;
+    background-color:#fff;
+}
+#bujian-three{
+    width: 100%;
+
+    margin-top: 0.2rem;
+}
+#bujian-three .box1{
+    width: 40%;
+    height: 0.48rem;
+    float: left;
+    margin-left: 0.15rem;
+    margin-bottom: 0.15rem;
+}
+.grid-item-img{
+    width: 0.48rem;
+    height: 0.48rem;
+    border-radius: 50%;
+    float: right;
+}
+h3{
+    font-size: 0.2rem;
+}
+.grid-item-description{
+    font-size: 0.1rem;
+}
+#bujian-four{
+    width: 100%;
+    margin-bottom: 0.2rem;
+}
+#bujian-four .box1{
+    width: 100%;
+    margin-left: 0.15rem;
+    height: 0.5rem;
+}
+#bujian-four .box1 h3{
+    font-size: 0.2rem;
+    float: left;
+    margin-right: 1.2rem;
+}
+#bujian-four .box1 .tex{
+    font-size: 0.1rem;
+    float: left;
+    margin-top: 0.06rem;
+}
+#bujian-four .box2{
+    width: 32%;
+    float: left;
+}
+#bujian-four .box2 img{
+    width: 1rem;
+    height: 0.65rem;
+    margin-left: 0.2rem;
+    margin-bottom: .1rem;
+}
+#bujian-four .box2 p{
+    font-size: 0.1rem;
+    text-align: center;
+}
