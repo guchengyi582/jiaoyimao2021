@@ -1,0 +1,326 @@
+html{
+    font-size: 26.67vw;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+header{
+    overflow: hidden;
+}
+.headbox{
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 19px;
+}
+.headbox .icon{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+}
+.icon i{
+    font-size: 0.16rem;
+}
+.headbox h1{
+    margin: 0 68px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 100%;
+    font-weight: 400;
+}
+.headbox a{
+    position: absolute;
+    right: 10px;
+    width: auto;
+    padding: 0 10px;
+    top: 7px;
+    height: 29px;
+    line-height: 29px;
+    font-size: 12px;
+    border: 1px solid #DCDCDC;
+}
+main{
+    width: 100%;
+    flex: 1;
+    background: #eee;
+}
+.boxa{
+    background: #fff;
+    margin: 12px 8px;
+    border: 1px solid #DCDCDC;
+}
+.topboxa{
+    display: flex;
+    padding: 15px 15px 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.botboxa{
+    padding: 10px;
+    background-color: #ffffff;
+    line-height: 1.5;
+}
+.topboxa img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+.user{
+    font-size: 16px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.lm{
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+    color: #434343;
+    margin-right: 3px;
+}
+.icon{
+    max-width: 150px!important;
+    padding-right: 15px;
+    font-size: 12px;
+    color: #C0C4CC;
+    margin-top: 3px;
+    white-space: nowrap;
+}
+.wsq{
+    font-size: 12px;
+    color: #C0C4CC;
+    white-space: nowrap;
+    margin-top: 3px;
+}
+.jiantou{
+    width: 8px;
+    height: 13px;
+}
+.jiantou i{
+    width: 8px;
+    height: 13px;
+    margin-left:-2px; 
+    color: #C0C4CC;
+}
+.botboxacon{
+    background: #FFF9E7;
+    border-radius: 4.8px;
+    display: flex;
+    padding: 0 10px 0 5px;
+    align-items: center;
+}
+.botboxacon img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bottit {
+    padding: 0;
+    flex: 1;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bottita {
+    font-family: PingFangSC-Semibold;
+    color: #7C2E00;
+    text-align: left;
+    margin-top: 10px;
+}
+.bottitb {
+    opacity: 0.6;
+    font-family: PingFangSC-Regular;
+    color: #7C2E00;
+    margin-bottom: 10px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.go{
+    width: 35px;
+    height: 35px;
+    background-image: linear-gradient(
+-65deg
+, #FFE69F 0%, #FFAB04 100%);
+    border-radius: 20px;
+    text-align: center;
+    line-height: 35px;
+    display: flex;
+    justify-content:center;
+}
+.go::before{
+    content: "GO";
+    font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #7C2E00;
+    letter-spacing: 0;
+}
+.center{
+    padding: 6px 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.centerleft{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+} 
+.centerleft p{
+    line-height: 31px;
+    color: #707070;
+}
+.price{
+    color: #de4545!important;
+}
+.mingxi{
+    color: #707070;
+    font-size: 12px;
+}
+h2{
+    height: 43px;
+    line-height: 43px;
+    color: #707070;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.ddright{
+    float: right;
+    display: flex;
+}
+.manage-item li {
+    width: 33.3%;
+    font-size: 12px;
+    text-align: center;
+    height: 95px;
+    float: left;
+    border-top: 1px solid #E5E5E5;
+}
+.icon-unpaid {
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 8px auto 6px;
+    background-color: #A1BCCE;
+    background-image: url(../images/icon_mycenter.png);
+    background-size: 60px auto;
+}
+.c-red{
+    color: #de4545;
+}
+.icon-ship{
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 8px auto 6px;
+    background-color: #A1BCCE;
+    background-image: url(../images/icon_mycenter.png);
+    background-size: 60px auto;
+}
+.icon-evaluation{
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 8px auto 6px;
+    background-color: #A1BCCE;
+    background-image: url(../images/icon_mycenter.png);
+    background-size: 60px auto;
+}
+.icon-quan{
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 8px auto 6px;
+    background-color: #A1BCCE;
+    background-image: url(../images/icon_mycenter.png);
+    background-size: 60px auto;
+}
+.icon-favorite{
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 8px auto 6px;
+    background-color: #A1BCCE;
+    background-image: url(../images/icon_mycenter.png);
+    background-size: 60px auto;
+}
+.icon-offer{
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 8px auto 6px;
+    background-color: #A1BCCE;
+    background-image: url(../images/icon_mycenter.png);
+    background-size: 60px auto;
+}
+.maijia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.list{
+    background: #fff;
+    clear: both;
+    display: -webkit-box;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #DCDCDC;
+    line-height: 43px;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.list li{
+    float: left;
+    width: 25%;
+    border-right:1px solid #DCDCDC; 
+    text-align: center;
+}
+footer {
+    padding: 20px 0;
+    color: #959595;
+    font-size: 12px;
+    text-align: center;
+}
+footer .version {
+    margin-bottom: 15px;
+    color: #000;
+}
+footer p {
+    padding-bottom: 8px;
+}
+footer .version .space {
+    padding: 0 15px;
+}
+footer .version .current {
+    font-weight: 700;
+}

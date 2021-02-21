@@ -154,41 +154,41 @@ h2{
 .bujian-four div span,.bujian-five div span{
     font-size: 0.1rem;
 }
-.bujian-six{
-    width: 3.45rem;
-    height: 1.3rem;
-    margin-left: 0.15rem;
+#banner{
+    width:3.75rem;
+    height:1.52rem;
+    overflow: hidden;
+    position: relative;
 }
-.swiper-container {
-    width: 100%;
-    height: 100%;
-  }
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+#bannerimg{
+    width:9999999px;
+    height: 1.42rem;
 }
-.bujian-six img{
-    width: 100%;
-    height: 1.3rem;
+#banner img{
+    width: 3.5rem;
+    height: 1.41rem;
+    float: left;
+    margin-left: 0.17rem;
 }
-#shenti{
-    width: 100%;
+#bannerdot {
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%,0);
+}
+#bannerdot li{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background-color:rgb(134, 19, 38);
+    margin:0 0.05rem; 
+    float: left;
+    cursor: pointer;
+    opacity: .2;
+}
+#bannerdot .focus{
+    opacity: 1;
+    background-color:#fff;
 }
 .bujian-seven{
     width: 100%;

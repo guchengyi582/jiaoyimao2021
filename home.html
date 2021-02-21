@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/commit.css">
     <link rel="stylesheet" href="./css/iconfont.css">
-    <link rel="stylesheet" href="./css/swiper.css">
 </head>
 
 <body>
@@ -131,21 +130,23 @@
                 <span>三国杀</span>
             </div>
         </div>
-        <div class="bujian-six">
-            <div class="banner">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="./images/4.png" alt=""></div>
-                        <div class="swiper-slide"><img src="./images/4.png" alt=""></div>
-                        <div class="swiper-slide"><img src="./images/4.png" alt=""></div>
-                    </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
+        <div id="banner">
+            <ul id="bannerimg" style="margin-Left: 0">
+                <li>
+                    <img src="https://gw.alipayobjects.com/os/q/cms/images/kitx87z5/853db2bf-cad0-4a0d-8a6c-0f8a5f90768a_w720_h282.png?x-oss-process=image/format,jpg/quality,q_70"
+                        alt="">
+                </li>
+                <li>
+                    <img src="https://gw.alipayobjects.com/os/q/cms/images/kjhwpnmd/a552bb57-e7f7-4885-bb9d-b389c0648adb_w720_h310.jpg?x-oss-process=image/format,jpg/quality,q_70"
+                        alt="">
+                </li>
+                <li>
+                    <img src="https://gw.alipayobjects.com/os/q/cms/images/kk6ut1t1/f33f7c7b-3687-46ad-b459-929e73b11601_w720_h282.png?x-oss-process=image/format,jpg/quality,q_70"
+                        alt="">
+                </li>
+            </ul>
+            <ol id="bannerdot">
+            </ol>
         </div>
         <div class="bujian-seven">
             <li><img src="https://img.alicdn.com/tfs/TB1giKAH1L2gK0jSZFmXXc7iXXa-340-140.png" alt=""></li>
@@ -183,6 +184,8 @@
             <span>我的</span>
         </div>
     </div>
+    <script src="./js/jquery.min.js"></script>
+   <script src="./js/lunbotu-one.js"></script>
 </body>
 
 </html>

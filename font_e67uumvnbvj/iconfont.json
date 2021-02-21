@@ -6,11 +6,32 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "3261897",
+      "name": "芝麻信用",
+      "font_class": "zhimaxinyong",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "5268908",
+      "name": "小于",
+      "font_class": "xiaoyuhao",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
       "icon_id": "8022814",
       "name": "大于号",
       "font_class": "right",
       "unicode": "e50a",
       "unicode_decimal": 58634
+    },
+    {
+      "icon_id": "10335431",
+      "name": "信托",
+      "font_class": "xintuo",
+      "unicode": "e74a",
+      "unicode_decimal": 59210
     }
   ]
 }
